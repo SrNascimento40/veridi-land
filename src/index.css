@@ -1,0 +1,27 @@
+:root {
+  --indigo: #3b3b9a;
+  --indigo-light: #4f53c9;
+  --indigo-dark: #232359;
+  --white: #fff;
+  --gray: #f5f7fa;
+  --text: #1a1a2e;
+  --shadow: 0 4px 32px rgba(59,59,154,0.08);
+  --border: #e0e6ed;
+  --radius: 1.5rem;
+  --transition: 0.2s cubic-bezier(.7,.2,.16,1);
+  --zfx: #4e8df0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: var(--gray);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
