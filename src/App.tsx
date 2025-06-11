@@ -110,7 +110,7 @@ function App() {
 <div className="plans-desc">Escolha o plano ideal para o seu escritório. Sem burocracia, sem surpresas.</div>
 <div className="plans-list"> */}
 {/* <!-- ESSENCIAL --> */}
-<div className="plan">
+{/* <div className="plan">
 <div className="plan-title">Essencial</div>
 <div className="plan-price">R$49<span style={{ fontSize: '1rem', fontWeight: 400 }}>/mês</span></div>
 <div className="plan-desc">Ideal para pequenos escritórios ou advogados autônomos.</div>
@@ -121,9 +121,9 @@ function App() {
 <li>Suporte básico por e-mail</li>
 </ul>
 <button className="plan-btn">Assinar Essencial</button>
-</div>
+</div> */}
 {/* <!-- PROFISSIONAL --> */}
-<div className="plan best">
+{/* <div className="plan best">
 <div className="plan-badge">MAIS POPULAR</div>
 <div className="plan-title">Profissional</div>
 <div className="plan-price">R$99<span style={{ fontSize: '1rem', fontWeight: 400 }}>/mês</span></div>
@@ -136,9 +136,9 @@ function App() {
 <li>Auditoria e registro de acessos</li>
 </ul>
 <button className="plan-btn">Assinar Profissional</button>
-</div>
+</div> */}
 {/* <!-- CORPORATIVO --> */}
-<div className="plan">
+{/* <div className="plan">
 <div className="plan-title">Corporativo</div>
 <div className="plan-price">Sob consulta</div>
 <div className="plan-desc">Soluções personalizadas para grandes escritórios e demandas especiais.</div>
@@ -155,7 +155,7 @@ function App() {
 <div style={{ marginTop: '2.2rem', fontSize: '0.95rem', color: '#798ad6', opacity: 0.87 }}>
         *Todos os planos incluem segurança de dados, atualizações contínuas e estão protegidos pela tecnologia ZFX Studios.
       </div>
-</section>
+</section> */}
 {/* <!-- SECURITY SECTION --> */}
 <section className="container features-section" id="security" style={{ marginTop: 0 }}>
 <div className="feature" style={{ flexBasis: '100%' }}>
