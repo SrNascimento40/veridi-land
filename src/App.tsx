@@ -105,10 +105,10 @@ function App() {
 </div>
 </section>
 {/* <!-- PLANOS --> */}
-<section className="container plans-section" id="plans">
+{/* <section className="container plans-section" id="plans">
 <div className="plans-title">Planos e Preços</div>
 <div className="plans-desc">Escolha o plano ideal para o seu escritório. Sem burocracia, sem surpresas.</div>
-<div className="plans-list">
+<div className="plans-list"> */}
 {/* <!-- ESSENCIAL --> */}
 <div className="plan">
 <div className="plan-title">Essencial</div>
