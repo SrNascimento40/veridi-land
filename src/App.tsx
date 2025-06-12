@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect } from 'react';
 
+
 function App() {
   useEffect(() => {
     const navToggle = document.querySelector('.nav-toggle') as HTMLButtonElement;
@@ -19,6 +20,26 @@ function App() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    const elements = document.querySelectorAll('.reveal-on-scroll');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+  
+    elements.forEach(el => observer.observe(el));
+  
+    return () => observer.disconnect();
+  }, []);
+  
+  
 
   const scrollToCTA = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
@@ -67,7 +88,7 @@ function App() {
 </div>
 </section>
 {/* <!-- FEATURES SECTION --> */}
-<section className="container features-section" id="features">
+<section className="container features-section reveal-on-scroll" id="features">
 <div className="feature">
 <span className="feature-icon">🔒</span>
 <div className="feature-title">Segurança em Primeiro Lugar</div>
@@ -157,7 +178,7 @@ function App() {
       </div>
 </section> */}
 {/* <!-- SECURITY SECTION --> */}
-<section className="container features-section" id="security" style={{ marginTop: 0 }}>
+<section className="container features-section reveal-on-scroll" id="security" style={{ marginTop: 0 }}>
 <div className="feature" style={{ flexBasis: '100%' }}>
 <span className="feature-icon">🛡️</span>
 <div className="feature-title">Inovação que Garante Confiança</div>
@@ -167,7 +188,7 @@ function App() {
 </div>
 </section>
 {/* <!-- TESTIMONIALS --> */}
-<section className="container testimonials-section" id="testimonials">
+<section className="container testimonials-section reveal-on-scroll" id="testimonials">
 <div className="testimonials-title">O que dizem nossos clientes</div>
 <div className="testimonials">
 <div className="testimonial">
@@ -185,7 +206,7 @@ function App() {
 </div>
 </section>
 {/* <!-- CALL TO ACTION --> */}
-<section className="container cta-section" id="contact">
+<section className="container cta-section reveal-on-scroll" id="contact">
 <div className="cta-title">Experimente a nova era da gestão jurídica</div>
 <div className="cta-desc">
         Dê o próximo passo em inovação, segurança e eficiência para o seu escritório de advocacia. Solicite uma demonstração personalizada e descubra como o Veridi pode transformar a rotina de advogados e clientes.
