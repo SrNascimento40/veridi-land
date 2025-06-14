@@ -63,7 +63,7 @@ function App() {
 <li><a href="#contact">Contato</a></li>
 </ul>
 </nav>
-<button className="btn">Solicitar Demonstração</button>
+<a className="btn" href="/pre-venda">PRÉ-VENDA</a>
 <button aria-label="Menu" className="nav-toggle">☰</button>
 </div>
 </header>
@@ -210,8 +210,8 @@ function App() {
 <div className="cta-title">Experimente a nova era da gestão jurídica</div>
 <div className="cta-desc">
   Garanta sua vaga na pré-venda e seja um dos primeiros a experimentar o futuro da gestão jurídica com o Veridi. Não perca essa oportunidade exclusiva!
-      </div>
-<button className="cta-btn" onClick={() => alert("Em breve! Deixe seu contato para ser avisado.")}>PRÉ-VENDA</button>
+</div>
+<a href="/pre-venda" className="cta-btn">PRÉ-VENDA</a>
 </section>
 </main>
 <footer>
