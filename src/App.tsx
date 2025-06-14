@@ -209,41 +209,41 @@ function App() {
 <section className="container cta-section reveal-on-scroll" id="contact">
 <div className="cta-title">Experimente a nova era da gestão jurídica</div>
 <div className="cta-desc">
-        Dê o próximo passo em inovação, segurança e eficiência para o seu escritório de advocacia. Solicite uma demonstração personalizada e descubra como o Veridi pode transformar a rotina de advogados e clientes.
+  Garanta sua vaga na pré-venda e seja um dos primeiros a experimentar o futuro da gestão jurídica com o Veridi. Não perca essa oportunidade exclusiva!
       </div>
-<button className="cta-btn" onClick={() => alert("Em breve! Deixe seu contato para ser avisado.")}>Solicitar Demonstração</button>
+<button className="cta-btn" onClick={() => alert("Em breve! Deixe seu contato para ser avisado.")}>PRÉ-VENDA</button>
 </section>
 </main>
 <footer>
-<div className="footer-content container">
-<div className="footer-section">
-<div className="footer-logo">Veridi</div>
-<div>
-          Plataforma desenvolvida para escritórios de advocacia que buscam excelência em organização, comunicação e segurança.
-        </div>
-<div className="footer-zfx">
-<img alt="ZFX Studios Logo" src="https://zfxstudios.com.br/logo-simple-blue.svg" style={{ height: '22px', width: 'auto' }} />
-          Sistema protegido e desenvolvido por ZFX Studios
-        </div>
-</div>
-<div className="footer-section footer-links">
-<div className="footer-title">Navegação</div>
-<a href="#features">Funcionalidades</a>
-<a href="#plans">Planos</a>
-<a href="#security">Segurança</a>
-<a href="#testimonials">Depoimentos</a>
-<a href="#contact">Contato</a>
-</div>
-<div className="footer-section footer-links">
-<div className="footer-title">Contato</div>
-<a href="mailto:contato@veridi.com.br">contato@veridi.com.br</a>
-<a href="#">LinkedIn</a>
-<a href="#">Política de Privacidade</a>
-</div>
-</div>
-<div className="footer-note">
-      © 2025 Veridi. Todos os direitos reservados. — Um sistema ZFX Studios.
+  <div className="footer-content container">
+  <div className="footer-section">
+    <div className="footer-logo">Veridi</div>
+    <div>
+      Plataforma desenvolvida para escritórios de advocacia que buscam excelência em organização, comunicação e segurança.
     </div>
+    <div className="footer-zfx">
+      <img alt="ZFX Studios Logo" src="https://zfxstudios.com.br/logo-simple-blue.svg" style={{ height: '22px', width: 'auto' }} />
+              Sistema protegido e desenvolvido por ZFX Studios
+    </div>
+  </div>
+  <div className="footer-section footer-links">
+    <div className="footer-title">Navegação</div>
+    <a href="#features">Funcionalidades</a>
+    <a href="#plans">Planos</a>
+    <a href="#security">Segurança</a>
+    <a href="#testimonials">Depoimentos</a>
+    <a href="#contact">Contato</a>
+  </div>
+  <div className="footer-section footer-links">
+    <div className="footer-title">Contato</div>
+      <a href="mailto:contato@veridi.com.br">contato@veridi.com.br</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Política de Privacidade</a>
+    </div>
+  </div>
+  <div className="footer-note">
+    © 2025 Veridi. Todos os direitos reservados. — Um sistema ZFX Studios.
+  </div>
 </footer>
 
 
